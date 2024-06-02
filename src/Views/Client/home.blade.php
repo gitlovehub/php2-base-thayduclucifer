@@ -8,7 +8,7 @@
 <body>
     <h1>CHẾ ĐỘ SINH TỒN</h1>
     <h2>CHIẾN ĐẤU THẬT PHONG CÁCH</h2>
-
+    
     <form action="" method="post">
         Name: <input type="text" name="name">
         E-mail: <input type="text" name="email">
