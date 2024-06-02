@@ -9,8 +9,7 @@ Package được dùng:
 - Tài liệu sử dụng: https://www.doctrine-project.org/projects/doctrine-dbal/en/4.0/reference/introduction.html
 
 4. .htaccess: Dùng của Laravel or Wordpress
-- BEGIN WordPress
-    RewriteEngine On
+-   RewriteEngine On
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
     RewriteBase /
     RewriteRule ^index\.php$ - [L]
