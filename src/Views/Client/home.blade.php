@@ -29,7 +29,7 @@
     @if (!empty($_SESSION["success"]))
         <h1>{{$_SESSION["success"]}}</h1>
     @php
-        unset($_SESSION["errors"]);  
+        unset($_SESSION["success"]);  
     @endphp
 @endif
 </body>
