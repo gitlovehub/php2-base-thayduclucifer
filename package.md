@@ -17,7 +17,6 @@ Package được dùng:
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule . /index.php [L]
-- END WordPress
 
 5. Validate: https://github.com/rakit/validation
 - Lệnh cài: composer require "rakit/validation"
